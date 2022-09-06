@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 .flex-container {
     width: 10h;
     display: flex;
     text-align: center;
+    padding-left: 100px;
 }
 
 .flex-container div {
@@ -16,7 +17,6 @@
 }
 
 .flex-left {
-    margin-left: 150px;
     padding: 10px;
     flex: 50%;
 }
@@ -29,6 +29,6 @@
 @media (max-width: 800px) {
     .flex-container {
         margin-left: 0px;
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
