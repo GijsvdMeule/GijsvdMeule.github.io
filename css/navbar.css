@@ -8,9 +8,14 @@ color: white;
 float: right;
 text-align: center;
 padding: 6px;
+text-decoration: none;
 }
 
 nav a:hover {
-    background-color: black;
+    color: black;
     columns: white;
+}
+
+.active {
+    color: yellow;
 }
