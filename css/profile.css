@@ -16,6 +16,7 @@
 }
 
 .flex-left {
+    margin-left: 150px;
     padding: 10px;
     flex: 50%;
 }
@@ -27,6 +28,7 @@
 
 @media (max-width: 800px) {
     .flex-container {
+        margin-left: 0px;
       flex-direction: column;
     }
   }
