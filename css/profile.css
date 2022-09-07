@@ -1,4 +1,21 @@
-* {
+.top-half {
+    position: relative;
+}
+
+.bottom-half {
+    position: relative
+}
+
+
+
+
+
+
+
+
+
+
+/* * {
     box-sizing: border-box;
 }
 
@@ -31,4 +48,4 @@
         margin-left: 0px;
         flex-direction: column;
     }
-}
+} */

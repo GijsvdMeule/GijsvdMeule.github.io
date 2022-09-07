@@ -1,56 +1,11 @@
 .gashouder {
   position: relative;
-  /* text-align: center; */
-}
-
-
-.photo {
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  box-shadow: 10px 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 32px;
-}
-
-.photo-2 {
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: block;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.nav-gashouder {
-  padding: 10px;
-  position: absolute;
-  top: 16px;
-  right: 25vw;
 }
 
 .name {
   position: absolute;
   left: 25vw;
   top: 335px;
-}
-
-.nav-gashouder a {
-  color: white;
-  text-align: center;
-  padding: 6px 6px 6px 6px;
-  text-decoration: none;
-}
-
-.nav-gashouder a:hover {
-  color: yellow;
-  columns: white;
-}
-
-.nav-gashouder a:active {
-  color: aqua;
 }
 
 .bottom-half {
@@ -64,14 +19,6 @@
   margin-left: 30vw;
   margin-right: 30vw;
 }
-
-
-/* body {
-    background-image: url('/images/gashouder.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100vh 60vh;
-} */
 
 /* .aside {
     width: 130px;

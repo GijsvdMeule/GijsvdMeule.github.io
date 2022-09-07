@@ -11,11 +11,26 @@ padding: 6px;
 text-decoration: none;
 }
 
-nav a:hover {
-    color: black;
-    columns: white;
-}
-
 .active {
     color: yellow;
 }
+
+/* h */
+nav {
+    padding: 10px;
+    position: absolute;
+    top: 16px;
+    right: 25vw;
+  }
+
+  nav a {
+    color: white;
+    text-align: center;
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: yellow;
+    columns: white;
+  }
