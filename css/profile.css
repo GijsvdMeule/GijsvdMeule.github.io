@@ -6,6 +6,20 @@
     position: relative
 }
 
+.flex-left {
+    position: absolute;
+    top: 15vh;
+    left: 250px;
+    max-width: 300px;
+}
+
+.flex-right {
+    position: absolute;
+    top: 15vh;
+    left: 600px;
+    max-width: 300px;
+}
+
 
 
 
