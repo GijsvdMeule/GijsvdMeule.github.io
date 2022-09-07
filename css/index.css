@@ -1,23 +1,40 @@
 .gashouder {
   position: relative;
-  text-align: center;
+  /* text-align: center; */
 }
 
 
-.gashouder-photo {
+.photo {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-  box-shadow: black 140px;
+  box-shadow: 10px 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 32px;
 }
 
+.photo-2 {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .nav-gashouder {
-  /* text-align: right; */
   padding: 10px;
-  /* margin-right: 16%; */
+  position: absolute;
+  top: 16px;
+  right: 25vw;
+}
+
+.name {
+  position: absolute;
+  left: 20vw;
+  top: 300px;
 }
 
 .nav-gashouder a {
@@ -36,19 +53,17 @@
   color: aqua;
 }
 
-.welcome-text {
-  text-align: center;
-  font-size: 16px;
-  padding: 0 15vw 0 15vw;
+.bottom-half {
+  position: relative;
+  display: inline-block;
 }
 
-
-
-
-
-
-
-
+h4 {
+  text-align: center;
+  position: absolute;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
 
 
 /* body {
