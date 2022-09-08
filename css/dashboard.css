@@ -2,6 +2,10 @@ table {
     margin-top: 12px;
     border: solid 10px;
     border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    margin-left: 400px;
 }
 
 td {
@@ -15,4 +19,13 @@ td {
 
 .bottom-half {
     position: relative;
+}
+
+.photo-dash {
+    border-radius: 16px;
+    box-shadow: 10px 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
 }
