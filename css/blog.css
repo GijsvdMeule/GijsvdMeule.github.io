@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.test {
+    background: darkblue;
+    border-radius: 16px;
+    margin: 10px;
+    padding: 100px;
+    max-width: 20px;
+    max-height: 10px;
+}
+
+@media (max-width: 500px) {
+.container {
+    flex-direction: column;
+}
+}
