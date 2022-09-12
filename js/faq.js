@@ -1,5 +1,4 @@
 function removeFunction() {
-   document.getElementsByTagName('p')
-
+    let p = document.getElementsByTagName('p').removeAttribute("hidden");
 }
 
