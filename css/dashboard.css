@@ -11,8 +11,8 @@ table {
     background: linear-gradient(orange, violet);
     padding: 10px;
     box-shadow: 0 3px 9px black, inset 0 0 9px white;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td {

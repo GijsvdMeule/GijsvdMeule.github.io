@@ -1,3 +1,10 @@
+.page {
+    background-image: linear-gradient(rgb(58, 0, 128), rgb(0, 255, 110));
+    border-radius: 16px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 ul {
     margin-top: 100px;
     cursor: pointer;
@@ -8,7 +15,6 @@ li {
 }
 
 .bottom-half {
-    background-image: linear-gradient(rgb(58, 0, 128), rgb(0, 255, 110));
     border-radius: 16px;
     height: 1000px;
     width: 950px;
