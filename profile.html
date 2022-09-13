@@ -8,10 +8,28 @@
   <link rel="stylesheet" href="/css/profile.css">
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="/css/navbar.css">
-  <title>My profile</title>
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/sidenav.css">
+  <script src="/js/sidenav.js"></script>
+  <title>Mijn profiel</title>
 </head>
 
 <body>
+
+  <div id="mySidenav" class="sidenav">
+    <div class="closebtn" onclick="closeNav()">&times;</div>
+    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen">Hz OER</a>
+    <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">Hz IR</a>
+    <a href="https://teams.microsoft.com/_?tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c#/school/conversations/unknown?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel">Teams</a>
+    <a href="https://learn.hz.nl/my/">HZ learn</a>
+    <a href="https://hz.osiris-student.nl/#/voortgang/">Studievoortgang</a>
+    <a href="https://github.com/HZ-HBO-ICT">Github</a>
+  </div>
+
+  <div onclick="openNav()">
+    <img class="arrow" src="/icon/white-arrow.png" width="100px" alt="arrow">
+  </div>
+
   <header>
     <div class="top-half">
       <nav>
@@ -43,11 +61,36 @@
           videogames voetbal ik in mijn vrije tijd. Ik heb altijd bij Breskens in de jeugd gespeeld, maar nu speel ik
           op
           het 1e elftal van Schoondijke.
-
         </p>
       </div>
+      <div class="characteristics">
+        <h1>Mijn karaktereigenschappen</h1>
+      <ul>
+        <li>
+          Behulpzaam
+        </li>
+        <li>
+          Kalm
+        </li>
+        <li>
+          Sportief
+        </li>
+        <li>
+          Introvert
+        </li>
+      </ul>
+    </div>
   </article>
   </div>
+  <footer>
+    <ul>
+      <li>
+        <a href="https://steamcommunity.com/profiles/76561198341567233/">Steam profiel</a>
+      </li>
+      <li>      <a href="https://github.com/GijsvdMeule/GijsvdMeule.github.io">Github</a>
+      </li>
+    </ul>
+  </footer>
 </body>
 
 </html>

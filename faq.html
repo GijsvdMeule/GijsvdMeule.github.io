@@ -8,68 +8,102 @@
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="/css/navbar.css">
   <link rel="stylesheet" href="/css/faq.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/sidenav.css">
   <script src="/js/faq.js"></script>
-  <title>My faq</title>
+  <script src="/js/sidenav.js"></script>
+  <title>FAQ</title>
 </head>
 
 <body>
-<div class="page">
-  <nav>
-    <a href="/faq.html" class="active">FAQ</a>
-    <a href="/blog.html">Blog</a>
-    <a href="/dashboard.html">Dashboard</a>
-    <a href="/profile.html">Mijn profiel</a>
-    <a href="/index.html">Home</a>
-  </nav>
-  <ul>
-    <li onclick="removeHidden()">
-      Hoe print je een document van je laptop op de HZ?
-      <p hidden>
-        Je kunt printen door naar print.hz.nl te gaan en in te loggen met je schoolaccount. Kies vervolgens een printer
-        en druk op print
-      </p>
-    </li>
 
-    <li onclick="removeHidden1()">
-      Hoe scan je een document en stuur je het naar je laptop op de HZ?
-      <p class="p1" hidden>Je kunt een document scannen door naar een printer op school te gaan. Scan je HZ pass en scan
-        uw document. Vervolgens zal het document naar je HZ mail gestuurd worden. </p>
-    </li>
+  <div id="mySidenav" class="sidenav">
+    <div class="closebtn" onclick="closeNav()">&times;</div>
+    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen">Hz OER</a>
+    <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">Hz IR</a>
+    <a href="https://teams.microsoft.com/_?tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c#/school/conversations/unknown?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel">Teams</a>
+    <a href="https://learn.hz.nl/my/">HZ learn</a>
+    <a href="https://hz.osiris-student.nl/#/voortgang/">Studievoortgang</a>
+    <a href="https://github.com/HZ-HBO-ICT">Github</a>
+  </div>
 
-    <li onclick="removeHidden2()">
-      Hoe kan ik iets kopen op de HZ Webshop?
-      <p class="p2" hidden>
-        Je kan iets kopen door naar de webshop te gaan, dan een item te kiezen en in de winkelwagen doen. Vervolgens kan
-        je via de winkelwagen afrekenen en dan heb je iets gekocht.
-      </p>
-    </li>
+  <div onclick="openNav()">
+    <img class="arrow" src="/icon/white-arrow.png" width="100px" alt="arrow">
+  </div>
 
-    <li onclick="removeHidden3()">
-      Waar kan ik de meest actuele regels vinden voor wat te doen bij COVID klachten?
-      <p class="p3" hidden>
-        De COVID regels zijn de vinden op hz.nl onder het kopje actualiteiten, hier kunt u vervolgens kiezen voor
-        Coronavirus.
-      </p>
-    </li>
+  <div class="page">
+    <nav>
+      <a href="/faq.html" class="active">FAQ</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/dashboard.html">Dashboard</a>
+      <a href="/profile.html">Mijn profiel</a>
+      <a href="/index.html">Home</a>
+    </nav>
+    <h1>FAQ</h1>
+    <p class="start-text">Tijdens de opleiding ICT zul je tegen een aantal problemen aanlopen. Hier een paar veelgestelde vragen die handig
+      kunnen zijn voor jou.
+    </p>
+    <ul>
+      <li onclick="removeHidden()">
+        Hoe print je een document van je laptop op de HZ?
+        <p class="p6" hidden>
+          Je kan printen door naar print.hz.nl te gaan en in te loggen met je schoolaccount. Kies vervolgens een printer
+          en druk op print
+        </p>
+      </li>
 
-    <li onclick="removeHidden4()">
-      Hoe kan ik een projectruimte boeken in een van de vleugels?
-      <p class="p4" hidden>
-        Via het studentenportaal is het mogelijk om een ruimte te kiezen en die vervolgens te reserveren voor een
-        bepaald tijdslot.
-      </p>
-    </li>
+      <li onclick="removeHidden1()">
+        Hoe scan je een document en stuur je het naar je laptop op de HZ?
+        <p class="p1" hidden>Je kunt een document scannen door naar een printer op school te gaan. Scan je HZ pass en
+          scan
+          je document. Vervolgens zal het document naar je HZ mail gestuurd worden. </p>
+      </li>
 
-    <li onclick="removeHidden5()">
-      Wat zijn de regels als ik wil parkeren bij de HZ?
-      <p class="p5" hidden>
-        Gratis parkeren is mogelijk aan de Poelendaelesingel 8 in Middelburg. Vervolgens moet de HZ studentenpas getoond
-        worden en dan kan je parkeren.
-      </p>
-    </li>
+      <li onclick="removeHidden2()">
+        Hoe kan ik iets kopen op de HZ Webshop?
+        <p class="p2" hidden>
+          Je kan iets kopen door naar de webshop te gaan, dan een item te kiezen en in de winkelwagen doen. Vervolgens
+          kan
+          je via de winkelwagen afrekenen en dan ben je eigenaar van het item
+        </p>
+      </li>
 
-  </ul>
-</div>
+      <li onclick="removeHidden3()">
+        Waar kan ik de meest actuele regels vinden voor wat te doen bij COVID klachten?
+        <p class="p3" hidden>
+          De COVID regels zijn de vinden op hz.nl onder het kopje actualiteiten, hier kunt u vervolgens kiezen voor
+          Coronavirus.
+        </p>
+      </li>
+
+      <li onclick="removeHidden4()">
+        Hoe kan ik een projectruimte boeken in een van de vleugels?
+        <p class="p4" hidden>
+          Via het studentenportaal is het mogelijk om een ruimte te kiezen en die vervolgens te reserveren voor een
+          bepaald tijdslot.
+        </p>
+      </li>
+
+      <li onclick="removeHidden5()">
+        Wat zijn de regels als ik wil parkeren bij de HZ?
+        <p class="p5" hidden>
+          Gratis parkeren is mogelijk aan de Poelendaelesingel 8 in Middelburg. Vervolgens moet de HZ studentenpas
+          getoond
+          worden en dan kun je parkeren.
+        </p>
+      </li>
+
+    </ul>
+  </div>
+  <footer>
+    <ul>
+      <li>
+        <a href="https://steamcommunity.com/profiles/76561198341567233/">Steam profiel</a>
+      </li>
+      <li> <a href="https://github.com/GijsvdMeule/GijsvdMeule.github.io">Github</a>
+      </li>
+    </ul>
+  </footer>
 </body>
 
 </html>

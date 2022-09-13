@@ -9,43 +9,68 @@
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="/css/footer.css">
-  <title>My index</title>
+  <link rel="stylesheet" href="/css/sidenav.css">
+  <script src="/js/sidenav.js"></script>
+  <title>Home</title>
 </head>
 
 <body>
-  <header>
-    <div class="gashouder">
-      <nav>
-        <a href="/faq.html">FAQ</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/dashboard.html">Dashboard</a>
-        <a href="/profile.html">Mijn profiel</a>
-        <a href="/index.html" class="active">Home</a>
-      </nav>
-    </div>
-    <h1 class="name">Gijs van der Meule</h1>
-  </header>
-
-  <div class="bottom-half">
-    <div class="welcome-text">
-      <!-- <img class="photo-2" src="/images/purple.jpg" width="950" height="500"> -->
-      <h3 class="welcome">
-        <p>
-          Welkom op mijn website. Mijn naam is Gijs van der Meule. Verdere info over mijzelf is te vinden op de Mijn
-          profiel pagina. Mijn interesse voor HBO ICT ontstond bij mijn passie voor games. Eerst wilde ik dan ook
-          gamedesign gaan doen, echter dat bleek niet voor mij weggelegd. Toen was ik tot de conclusie gekomen dat ik
-          wilde gaan programmeren, en zo kwam ik uiteindelijk bij ICT terecht.
-        </p>
-        <p>
-          Ik denk dat de opleiding bij mij past omdat ik programmeren erg leuk vind. En ik een grote interesse heb in
-          computers en in het designen van mooie interfaces.
-        </p>
-      </h3>
-    
-    </div>
+  <div id="mySidenav" class="sidenav">
+    <div class="closebtn" onclick="closeNav()">&times;</div>
+    <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen">Hz OER</a>
+    <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">Hz IR</a>
+    <a href="https://teams.microsoft.com/_?tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c#/school/conversations/unknown?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&threadId=19:827654897ab746089c081f24aff1c984@thread.skype&ctx=channel">Teams</a>
+    <a href="https://learn.hz.nl/my/">HZ learn</a>
+    <a href="https://hz.osiris-student.nl/#/voortgang/">Studievoortgang</a>
+    <a href="https://github.com/HZ-HBO-ICT">Github</a>
   </div>
 
-  <!-- <div class="aside">
+  <div onclick="openNav()">
+    <img class="arrow" src="/icon/white-arrow.png" width="100px" alt="arrow">
+  </div>
+
+  
+    <header>
+      <div class="gashouder">
+        <nav>
+          <a href="/faq.html">FAQ</a>
+          <a href="/blog.html">Blog</a>
+          <a href="/dashboard.html">Dashboard</a>
+          <a href="/profile.html">Mijn profiel</a>
+          <a href="/index.html" class="active">Home</a>
+        </nav>
+      </div>
+      <h1 class="name">Gijs van der Meule</h1>
+    </header>
+
+    <div class="bottom-half">
+      <div class="welcome-text">
+        <h3 class="welcome">
+          <p>
+            Welkom op mijn website. Mijn naam is Gijs van der Meule. Verdere info over mijzelf is te vinden op de Mijn
+            profiel pagina. Mijn interesse voor HBO ICT ontstond bij mijn passie voor games. Eerst wilde ik dan ook
+            gamedesign gaan doen, echter dat bleek niet voor mij weggelegd. Toen was ik tot de conclusie gekomen dat ik
+            wilde gaan programmeren, en zo kwam ik uiteindelijk bij ICT terecht.
+          </p>
+          <p>
+            Ik denk dat de opleiding bij mij past omdat ik programmeren erg leuk vind. En ik een grote interesse heb in
+            computers en in het designen van mooie interfaces.
+          </p>
+        </h3>
+
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://steamcommunity.com/profiles/76561198341567233/">Steam profiel</a>
+        </li>
+        <li> <a href="https://github.com/GijsvdMeule/GijsvdMeule.github.io">Github</a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- <div class="aside">
     <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen">Hz examenregelingen</a>
     <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2020-2021/9.-Implementation-Regulations-ICT-Fulltime-2020-2021.pdf">ICT regelingen</a>
     <a href="https://learn.hz.nl/course/view.php?id=23602#section-1">Hz Learn</a>
@@ -53,15 +78,7 @@
     <a href="https://portal.hz.nl">Studie voortgang</a>
     <a href="https://github.com/search?q=hz+ict">Hz ICT github</a>
   </div>  -->
+  
 </body>
-<footer>
-  <ul>
-    <li>
-      <a href="https://steamcommunity.com/profiles/76561198341567233/">Steam profiel</a>
-    </li>
-    <li>      <a href="https://github.com/GijsvdMeule/GijsvdMeule.github.io">Github</a>
-    </li>
-  </ul>
-</footer>
 
 </html>

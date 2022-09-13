@@ -1,5 +1,5 @@
 function removeHidden() {
-    const p = document.querySelector('p');
+    const p = document.querySelector('.p6');
     console.log(p);
     p.removeAttribute("hidden");
 }

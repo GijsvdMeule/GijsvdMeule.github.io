@@ -6,7 +6,7 @@
 }
 
 ul {
-    margin-top: 100px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -18,4 +18,13 @@ li {
     border-radius: 16px;
     height: 1000px;
     width: 950px;
+}
+
+.start-text {
+    max-width: 40vw;
+    margin-left: 3vw;
+}
+
+h1 {
+    margin-left: 3vw;
 }
