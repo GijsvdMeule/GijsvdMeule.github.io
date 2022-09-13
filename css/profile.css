@@ -1,24 +1,26 @@
-.top-half {
-    position: relative;
+header {
+    background-image: url(/images/pacman.jpg);
+    background-size: cover;
+    border-radius: 16px 16px 0 0;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
+
+.name {
+    margin-top: 45vh;
+    margin-left: 5vw;
+   }
 
 .bottom-half {
-    position: relative
+    background-image: url(/images/blue.jpg);
+  background-size: cover;
+  border-radius: 0 0 16px 16px;
+  margin-top: -22px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 100px ;
 }
-
-.flex-left {
-    position: absolute;
-    top: 15vh;
-    left: 350px;
-    max-width: 300px;
-}
-
-.flex-right {
-    position: absolute;
-    top: 15vh;
-    left: 700px;
-    max-width: 300px;
-}
+  
 
 
 
