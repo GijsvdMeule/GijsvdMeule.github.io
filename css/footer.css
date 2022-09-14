@@ -7,9 +7,12 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+    padding: 20px;
 }
 
 footer {
     margin-left: 5vw;
     margin-right: 5vw;
 }
+
+
