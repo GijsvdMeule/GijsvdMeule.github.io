@@ -4,23 +4,27 @@ body {
     color: white;
 }
 
-.photo {
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    box-shadow: 10px 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 32px;
-  }
+header {
+  background-image: url(/images/gashouder.jpg);
+  background-size: cover;
+  border-radius: 16px 16px 0 0;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
 
-  .photo-2 {
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: block;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.bottom-half {
+  background-image: url(/images/purple.jpg);
+  background-size: cover;
+  border-radius: 0 0 16px 16px;
+  margin-top: -22px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 100px ;
+}
+
+.name {
+  margin-top: 45vh;
+  margin-left: 5vw;
+ }
+
 

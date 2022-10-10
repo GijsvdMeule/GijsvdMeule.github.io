@@ -1,4 +1,4 @@
-header {
+.header {
     background-image: url(/images/pacman.jpg);
     background-size: cover;
     border-radius: 16px 16px 0 0;
@@ -11,7 +11,7 @@ header {
     margin-left: 5vw;
    }
 
-.bottom-half {
+.bottom-half-profile {
     background-image: url(/images/blue.jpg);
   background-size: cover;
   border-radius: 0 0 16px 16px;

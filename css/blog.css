@@ -1,13 +1,6 @@
-.page {
-    background: linear-gradient(rgb(197, 8, 197), rgb(246, 0, 156));
-    border-radius: 16px;
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
 
 
-
-.container {
+.bottom-half {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,7 +8,7 @@
 }
 
 .post-card {
-    background: rgb(132, 10, 239);
+    background: rgb(144, 10, 239);
     border-radius: 16px;
     margin: 10px;
     padding: 100px;
@@ -25,7 +18,7 @@
     transition: all .2s cubic-bezier(.05,.51,.72,1);
 }
 
-.test:hover {
+.post-card:hover {
     box-shadow: rgb(65, 59, 59) 0 7px 22px 0;
     transform: scale(1.04);
 }
@@ -37,7 +30,7 @@
 
 
 @media (max-width: 500px) {
-.container {
+.bottom-half {
     flex-direction: column;
 }
 }
