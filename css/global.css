@@ -27,4 +27,12 @@ header {
   margin-left: 5vw;
  }
 
+.menubtn{
+cursor: pointer;
+}
+
+ .closebtn {
+  cursor: pointer;
+ }
+
 
